@@ -13,6 +13,7 @@ import {
   LogOut
 } from 'lucide-react'
  import { useState } from 'react'
+ import logo from './assets/logo.png.jpeg'
 import './App.css'
 
 function App() {
@@ -37,10 +38,10 @@ if (isLoggedIn) {
         {/* Logo */}
         <div className="logo-section">
 
-          <img
-            src="/src/assets/logo.png.jpeg"
-            alt="Elsewedy Logo"
-          />
+        <img
+  src={logo}
+  alt="Elsewedy Logo"
+/>
 
           <div className="logo-text">
             <h2>Elsewedy</h2>
@@ -157,10 +158,10 @@ const userRole = demoRole
         {/* Logo */}
         <div className="home-logo">
 
-          <img
-            src="/src/assets/logo.png.jpeg"
-            alt="Elsewedy Logo"
-          />
+         <img
+  src={logo}
+  alt="Elsewedy Logo"
+/>
 
           <div className="home-logo-text">
             <h2>Elsewedy</h2>
