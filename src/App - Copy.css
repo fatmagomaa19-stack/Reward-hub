@@ -1,0 +1,333 @@
+/* =========================
+   Page
+========================= */
+
+.login-page {
+  min-height: 100vh;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  padding: 30px;
+}
+
+
+/* =========================
+   Main Frame
+========================= */
+
+.login-container {
+  width: 330px;
+
+  padding: 35px;
+
+  text-align: center;
+
+  /* باقي الحواف بيضاء */
+  border: 1px solid white;
+
+  /* الحافة العلوية فقط حمراء */
+  border-top: 5px solid red;
+
+  border-radius: 15px;
+
+  /* ظل خفيف للفريم */
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+}
+
+
+/* =========================
+   Logo
+========================= */
+
+.logo-section {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 8px;
+}
+
+
+.logo-section img {
+  width: 50px;
+
+  height: auto;
+}
+
+
+.logo-text {
+  text-align: left;
+}
+
+
+.logo-text h2 {
+  margin: 0;
+
+  color: red;
+
+  font-size: 22px;
+
+  font-weight: bold;
+}
+
+
+.logo-text p {
+  margin: 2px 0 0;
+
+  color: #999;
+
+  font-size: 13px;
+}
+
+
+/* =========================
+   Welcome
+========================= */
+
+.welcome-section {
+  margin-top: 25px;
+}
+
+
+.welcome-section h1 {
+  margin: 0 0 8px 0;
+
+  font-weight: 700;
+
+  font-size: 28px;
+
+  letter-spacing: 0;
+
+  line-height: 1.2;
+}
+
+
+.welcome-section p {
+  margin-top: 0;
+
+  color: #777;
+}
+
+
+/* =========================
+   Form
+========================= */
+
+form {
+  margin-top: 25px;
+}
+
+
+/* =========================
+   Labels
+========================= */
+
+label {
+  display: block;
+
+  text-align: left;
+
+  margin-bottom: 8px;
+
+  font-weight: bold;
+
+  color: #000;
+}
+
+
+/* =========================
+   Input Container
+========================= */
+
+.input-container {
+  display: flex;
+
+  align-items: center;
+
+  border: 2px solid #ccc;
+
+  border-radius: 8px;
+
+  padding: 10px;
+
+  margin-bottom: 20px;
+
+  transition: 0.3s;
+}
+
+
+/* =========================
+   Icons
+========================= */
+
+.input-icon {
+  color: #888;
+
+  flex-shrink: 0;
+
+  margin-right: 10px;
+}
+
+
+/* =========================
+   Inputs
+========================= */
+
+.input-container input {
+  border: none;
+
+  outline: none;
+
+  width: 100%;
+
+  font-size: 16px;
+
+  background: transparent;
+}
+
+
+/* =========================
+   Input Focus
+========================= */
+
+.input-container:focus-within {
+  border-color: red;
+
+  box-shadow: 0 0 6px rgba(255, 0, 0, 0.25);
+}
+
+
+/* =========================
+   Eye Button
+========================= */
+
+.eye-button {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  border: none;
+
+  background: transparent;
+
+  color: #888;
+
+  cursor: pointer;
+
+  padding: 0;
+
+  transition: 0.3s;
+}
+
+
+.eye-button:hover {
+  color: #666;
+}
+
+
+/* =========================
+   Sign In Button
+========================= */
+
+.signin-button {
+  width: 100%;
+
+  padding: 12px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  background-color: red;
+
+  color: white;
+
+  font-size: 16px;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+  margin-top: 10px;
+
+  /* ظل أحمر تحت الزرار */
+  box-shadow: 0 5px 12px rgba(255, 0, 0, 0.35);
+
+  transition: 0.3s;
+}
+
+
+/* =========================
+   Button Hover
+========================= */
+
+.signin-button:hover {
+  background-color: #cc0000;
+
+  transform: translateY(-2px);
+
+  box-shadow: 0 7px 15px rgba(255, 0, 0, 0.45);
+}
+
+
+/* =========================
+   Contact
+========================= */
+
+.contact {
+  margin-top: 20px;
+
+  font-size: 14px;
+
+  color: #777;
+}
+
+
+.contact strong {
+  color: red;
+
+  margin-left: 4px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+
+.contact strong:hover {
+  text-decoration: underline;
+}
+
+
+/* =========================
+   Scrollbar
+========================= */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: red;
+
+  border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cc0000;
+}
