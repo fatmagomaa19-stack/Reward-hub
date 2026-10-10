@@ -1,6 +1,6 @@
 
-const API_BASE_URL = '/api-proxy'
-
+const API_BASE_URL =
+  import.meta.env.VITE_API_BASE_URL || '/api-proxy'
 async function request(endpoint, options = {}) {
   const token = localStorage.getItem('jwtToken')
 
